@@ -1,1 +1,87 @@
 /* Copy and paste your CSS from CodePen into here */
+
+body {
+  
+    /*background-color: #F0F8FF;*/
+
+    background-color: #FAEBD7;
+    border-style: groove;
+    border-color: pink;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  #title {
+    font-family: Sofia, monospace;
+    text-align: center;
+    font-size:40;
+  }
+ h2{
+   text-align:center;
+   font-family:"Qwitcher Grypen",monospace;
+   font-size:40;
+ }
+ #image{
+    max-width:100%;
+    height:auto;
+    display:block;
+  }
+
+  img {
+    margin: auto; /*center the image*/
+  }
+
+ #img-div{
+   padding: 40px 20px 20px 20px;
+   background-color:#F0F8FF;
+   border-radius:10%;
+
+ }
+
+.grid {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+} /*use CSS grid to make 3 columns*/
+
+ul{
+  list-style-type:circle;
+}
+ #Maryam-info{
+   background-color:;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-style:ridge;
+    border-color:violet;
+    border-width: 3px;
+    padding: 5px;
+    margin: 10px;
+   
+ }
+
+ #Yusuf-info{
+   background-color:;
+   margin: 10px;
+   border-radius: 30% 70% 30% 70% / 100% 0% 100% 0%;
+   border-style: solid;
+   border-color: darkblue;
+   border-width: 3px;
+   padding: 5px;
+ }
+
+ #Luqman-info{
+   background-color:;
+   border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+  /* border-radius: 8% 92% 19% 81% / 100% 35% 65% 0%;*/
+   border-style:solid;
+   border-color:#6e7491;
+   border-width: 3px;
+   padding: 5px;
+   margin: 10px;
+ }
+
+ footer{
+   font-size:11px;
+ }
